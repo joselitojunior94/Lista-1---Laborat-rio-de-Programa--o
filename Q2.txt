@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+int x;
+scanf("%d",&x);
+printf("%d",x);
+return (0);
+}
+
+R: O programa acima lê um inteiro com a função scanf e imprime na tela, com a função printf,
+ o inteiro que foi adicionado pelo usuário anteriormente.
