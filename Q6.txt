@@ -1,0 +1,4 @@
+if (num=10)
+
+R: Nesta linha de código a variável num vai receber o valor 10. Para que num seja comparado com o valor 10 o simbolo usado 
+é o ==
