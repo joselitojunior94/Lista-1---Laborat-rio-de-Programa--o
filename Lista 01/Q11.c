@@ -9,7 +9,7 @@ int main(){
   printf("Digite o valor do lado\n");
   scanf("%f",&area);
 
-  area = (pow(area,2);
+  area = (pow(area,2));
 
  printf("O dobro da area do quadrado eh %.2f\n",area*2);
 
