@@ -6,7 +6,7 @@ void imprime(){
       char palavra[1000];
 
   printf("Digite uma palavra\n");
-  scanf("%s",palavra);
+  scanf("%s",&palavra);
   printf("\n");
   printf("A palavra invertida eh : %s",strrev(palavra));
   printf("\n");
