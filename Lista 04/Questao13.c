@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void main(){
+void operacao(){
     char string[50];
     int string_int[50];
     int i,tam;
@@ -20,5 +20,10 @@ void main(){
 
  printf("%s",string);
 
+
+}
+
+void main(){
+ operacao();
 
 }
