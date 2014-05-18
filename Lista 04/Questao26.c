@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define N 3
 
 typedef struct{
    char matr [10];
@@ -12,7 +11,7 @@ typedef struct{
    float media;
 }Dados_alunos;
 
-void main(){
+void op(){
     Dados_alunos Vet_alunos[2];
     int i = 0;
   while(i!=2){
@@ -32,4 +31,8 @@ void main(){
  for(i=0;i<2;i++){
    printf("A media do aluno %s eh %.2f\n",Vet_alunos[i].nome,Vet_alunos[i].media);
  }
+}
+
+void main(){
+op();
 }
