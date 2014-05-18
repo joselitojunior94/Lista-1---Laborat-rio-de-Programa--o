@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-void main(){
+void troca(){
     char string01[1000],string02[1000];
     int i,tam01,tam02;
 
@@ -26,5 +26,11 @@ void main(){
 
   printf("A string 01 com a troca de a por * e  invertida eh:  %s\n",strrev(string01));
   printf("A string 02 com a troca de a por * e  invertida eh:  %s\n",strrev(string02));
+
+}
+
+void main(){
+ troca();
+
 
 }
