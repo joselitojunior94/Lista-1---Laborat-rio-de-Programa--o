@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+void sem_vogais (){
 
-void main(){
-     char palavra[1000];
+ char palavra[1000];
      int i,j,cont;
 
      printf("Digite uma palavra\n");
@@ -19,4 +19,8 @@ void main(){
     }
   }
 } printf("%s",palavra);
+}
+
+void main(){
+ sem_vogais();
 }
