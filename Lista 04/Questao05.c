@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void main(){
+void op(){
      char string01[30],carac[30];
      char *ptr = NULL;
      printf("Digite uma string\n");
@@ -16,4 +16,9 @@ void main(){
          printf("Nao Esta contida\n");
     }
 
+}
+
+void main(){
+  op();     
+     
 }
