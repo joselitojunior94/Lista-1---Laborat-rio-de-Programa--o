@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-void main(){
+void op(){
      char nome[100],velhas[100],novas[100];
      int idade,velha = 0,nova;
 
@@ -30,4 +30,9 @@ void main(){
 
 printf("O nome e a idade da mais velha: %s e %d anos\n",velhas,velha);
 printf("O nome e a idade da mais nova: %s e %d anos\n",novas,nova);
+}
+
+void main(){
+ op();
+
 }
